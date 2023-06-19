@@ -1,11 +1,18 @@
+<%@ page language="java" isELIgnored="false" contentType="text/html; charset=UTF-8"%>
+<%@page isErrorPage="true" %>
+<%
+    response.setStatus(200);
+%>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>모바일 청첩장 Test</title>
+        <title>모바일 Test</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap Icons-->
@@ -16,20 +23,21 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+		<link href="/_custom/mobile/css/styles.css" rel="stylesheet" />
+		<link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">청첩장 Top 왼쪽</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">1</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">3</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">4</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,14 +47,15 @@
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
+                    	<h1 class="text-white font-weight-bold">우리 결혼 합니다</h1>
+                        <h1 class="text-white font-weight-bold">9/28</h1></br></br></br></br></br></br></br></br></br></br></br>
+                        <h1 class="text-white font-weight-bold">신부 김하영, 신랑 고태훈</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">결혼을 축하합니다</p>
-                        <a class="btn btn-primary btn-xl" href="#about">초대장보기</a>
-                        <a class="btn btn-primary btn-xl" href="sms:01098994999"><i class='bx bxs-keyboard'></i>문자</a>
-                        <a class="btn btn-primary btn-xl" href="tel:01098994999">전화</a>
+                        <p class="text-white mb-5" style="font-size:30px;, font">2024. 09. 28. 토요일 오후 02:00</p>
+                        <p class="text-white mb-5" style="font-size:30px;">아젠토피오레 1층 그랜드홀</p>
+                        <a class="btn btn-primary btn-xl" href="#about">필요한진 모르겠는데 밑으로 내리는 칸</a>
                     </div>
                 </div>
             </div>
@@ -56,10 +65,10 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <h2 class="text-white mt-0" style="font-size:40px;">초대장(INVITATION)</h2></br></br>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                        <p class="text-white mb-4" style="font-size:45px;">서로가 마주보며 다져온 사랑을</br>이제 함께 한 곳을 바라보며</br>걸어갈 수 있는 큰 사랑으로 </br>키우고자 합니다.</br>저희 두 사람이 사랑의 이름으로</br>지켜나갈 수 있게 앞날을</br>축복해 주시면 감사하겠습니다.</p>
+                        <a class="btn btn-light btn-xl" href="#services">필요한진 모르겠는데 밑으로 내리는 칸</a>
                     </div>
                 </div>
             </div>
@@ -67,37 +76,88 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
+                <h2 class="text-center mt-0">연락처</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2"></h3>
+                            <p class="text-muted mb-0"></p>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:40px;">신랑 고태훈</h3>
+                            <a href="tel:01098994999" style="font-size:30px;">전화하기</a></br>
+                            <a href="sms:01098994999" style="font-size:30px;">문자하기</a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:40px;">신부 김하영</h3>
+                            <a href="tel:01046450722" style="font-size:30px;">전화하기</a></br>
+                            <a href="sms:01046450722" style="font-size:30px;">문자하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2"></h3>
+                            <p class="text-muted mb-0"></p>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:30px;">신랑측 혼주</h3>
+                            <p class="text-muted mb-0" style="font-size:25px;">아버지 고석진</p>
+                            <a href="tel:01036924999" style="font-size:23px;">전화하기</a></br>
+                            <a href="sms:01036924999" style="font-size:23px;">문자하기</a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:30px;">신부측 혼주</h3>
+                            <p class="text-muted mb-0" style="font-size:25px;">어머니 박민숙</p>
+                            <a href="tel:01035599398" style="font-size:23px;">전화하기</a></br>
+                            <a href="sms:01035599398" style="font-size:23px;">문자하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:30px;"></h3>
+                            <p class="text-muted mb-0" style="font-size:25px;"></p>
+                            <a href="tel:01036924999" style="font-size:23px;"></a></br>
+                            <a href="sms:01036924999" style="font-size:23px;"></a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                            <div class="mb-2"></div>
+                            <h3 class="h4 mb-2" style="font-size:30px;">신랑측 혼주</h3>
+                            <p class="text-muted mb-0" style="font-size:25px;">어머니 김원숙</p>
+                            <a href="tel:01032315261" style="font-size:23px;">전화하기</a></br>
+                            <a href="sms:01032315261" style="font-size:23px;">문자하기</a>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -106,8 +166,8 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -115,8 +175,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/2.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -124,8 +184,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/3.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -133,8 +193,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/4.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/4.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -142,8 +202,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/5.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/5.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -151,8 +211,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <a class="portfolio-box" href="/_custom/mobile/assets/img/portfolio/fullsize/6.jpg" title="Project Name">
+                            <img class="img-fluid" src="/_custom/mobile/assets/img/portfolio/thumbnails/6.jpg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -165,8 +225,8 @@
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+                <h2 class="mb-4">예식장 지도 띄울 곳</h2>
+                <a class="btn btn-light btn-xl" href="https://map.kakao.com/?q=%EC%95%84%EC%A0%A0%ED%86%A0%ED%94%BC%EC%98%A4%EB%A0%88&service=opensearch">지도 바로가기</a>
             </div>
         </section>
         <!-- Contact-->
@@ -174,7 +234,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <h2 class="mt-0">신랑신부, 혼주 계좌번호 적고 복사하기 만들 곳</h2>
                         <hr class="divider" />
                         <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
                     </div>
@@ -188,36 +248,36 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
+                        <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            Name input
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
-                            <!-- Email address input-->
+                            Email address input
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <!-- Phone number input-->
+                            Phone number input
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Phone number</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
-                            <!-- Message input-->
+                            Message input
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
+                            Submit success message
+                           
+                            This is what your users will see when the form
+                            has successfully submitted
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
@@ -226,14 +286,14 @@
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
+                            Submit error message
+                           
+                            This is what your users will see when there is
+                            an error submitting the form
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
+                            Submit Button
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -253,7 +313,8 @@
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+		<script src="/_custom/mobile/js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
