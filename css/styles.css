@@ -7668,7 +7668,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-auto {
@@ -10936,7 +10936,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
 }
 @media (min-width: 992px) {
   header.masthead {
