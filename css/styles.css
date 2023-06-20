@@ -119,6 +119,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.2;
 }
+parentName, .parentName {
+  font-size: calc(1.2rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  parentName, .parentName {
+    font-size: 2.0rem;
+  }
+}
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -139,7 +147,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -148,11 +156,11 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.6rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.1rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -7916,7 +7924,11 @@ textarea.form-control-lg {
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(2.2rem + 1.2vw) !important;
+}
+
+.fs-2-par {
+  font-size: calc(1.8rem + 0.9vw) !important;
 }
 
 .fs-3 {
@@ -10784,7 +10796,10 @@ textarea.form-control-lg {
     font-size: 2.5rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 3.5rem !important;
+  }
+  .fs-2-par {
+    font-size: 2.5rem !important;
   }
   .fs-3 {
     font-size: 1.75rem !important;
@@ -10836,7 +10851,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 1rem 0;
 }
 
 .text-white-75 {
@@ -10993,3 +11008,17 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.box1 {
+     margin: 0 auto;
+     float:left; 
+     width:50%; 
+     height:200px; 
+}
+          
+.box2 {
+     margin: 0 auto;
+     display:inline-block;
+     width:50%;
+     height:200px; 
+     }  
