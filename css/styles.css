@@ -11189,3 +11189,21 @@ header.masthead p {
 	background:
 		url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
 }
+
+#map {
+  	--bs-gutter-x: 1.5rem;
+ 	 --bs-gutter-y: 0;
+	 padding-right: calc(var(--bs-gutter-x) * 0.5);
+ 	 padding-left: calc(var(--bs-gutter-x) * 0.5);
+ 	 margin-right: auto;
+ 	 margin-left: auto;
+  	width:20rem;
+  	height:20rem;
+}
+@media (min-width: 1200px) {
+	#map {
+	width:35rem;
+	height:35rem;
+}
+}
+
