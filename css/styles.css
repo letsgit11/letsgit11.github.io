@@ -11263,3 +11263,32 @@ header.masthead p {
 	line-height: 2.5em;
 }
 
+@media (min-width: 992px) {
+	.thankText {
+	letter-spacing: 0em;
+	line-height: 2.5em;
+}
+}
+
+@media (min-width: 1200px) {
+	.thankText {
+	letter-spacing: 0em;
+	line-height: 2.6em;
+}
+}
+
+.size1_4 {
+	font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+	.size1_4 {
+	font-size: 1.8rem;
+}
+}
+
+@media (min-width: 1200px) {
+	.size1_4 {
+	font-size: 2.2rem;
+}
+}
