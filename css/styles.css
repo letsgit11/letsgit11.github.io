@@ -11292,3 +11292,16 @@ header.masthead p {
 	font-size: 2.2rem;
 }
 }
+
+.bi-clipboard {
+	margin-right: 0.5rem;
+}
+
+.mar-1 {
+	margin-right: 0.5rem;
+}
+
+.imgSize {
+	width: 1.2rem;
+	height: 1.2rem;
+}
