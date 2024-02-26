@@ -11313,3 +11313,42 @@ header.masthead p {
 	width: 1.2rem;
 	height: 1.2rem;
 }
+.img_pop {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	padding: 4vh 0;
+}
+.img_pop.on {
+	display: block;
+}
+
+.img_pop button {
+	position: fixed;
+	right: 47rem;
+	top: 6.25rem;
+	color: #fff;
+	background: none;
+	border: none;
+	font-size: 0;
+	background: rgba(255, 255, 255, 0.2);
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+
+.img_pop button i {
+	font-size: 1.875rem;
+}
+
+.img_pop p img {
+	width: 800px;
+}
