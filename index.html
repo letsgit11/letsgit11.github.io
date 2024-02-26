@@ -41,14 +41,13 @@
     	   document.body.removeChild(textarea);
     	   alert("링크가 복사되었습니다. 필요하신 곳에 붙여넣기 하세요!")
     	};
-	    $(document).on('click', '.add_btn', function (e) {
-		  $('#img_pop').addClass('on');
-
+	    document.on('click', '.add_btn', function (e) {
+		 document.getElementById$("img_pop").addClass('on');
 		});
 	
 	//img_pop 닫기
 	$(document).on('click', '#close_btn', function (e) {
-	  $('#img_pop').removeClass('on');
+	   document.getElementById$("img_pop").removeClass('on');
 	});
     </script>
     
@@ -270,8 +269,8 @@
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-4">축의금 전달</h2>
                         <hr class="divider divider-light" />
-                        <a class="add_btn"><p class="text-muted mb-5 size1_2"><>신랑측 계좌번호 모달</p></a>
-                        <a class="add_btn"><p class="text-muted mb-5 size1_2"><>신부측 계좌번호 모달</p></a>
+                        <a class="add_btn"><p class="text-muted mb-5 size1_2">신랑측 계좌번호 모달</p></a>
+                        <a class="add_btn"><p class="text-muted mb-5 size1_2">신부측 계좌번호 모달</p></a>
                     </div>
                 </div>
             </div>
