@@ -24,8 +24,8 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
 		<!-- <link href="/_custom/mobile/css/styles.css" rel="stylesheet" type="text/css"/> -->
-		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
-		
+	<link href="css/styles.css" rel="stylesheet" type="text/css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
     </head>
     <body id="page-top">
@@ -41,13 +41,13 @@
     	   document.body.removeChild(textarea);
     	   alert("링크가 복사되었습니다. 필요하신 곳에 붙여넣기 하세요!")
     	};
-	    document.on('click', '.add_btn', function (e) {
-		 document.getElementById$("img_pop").addClass('on');
+	    $(document).on('click', '.add_btn', function (e) {
+	 $("img_pop").addClass('on');
 		});
 	
 	//img_pop 닫기
 	$(document).on('click', '#close_btn', function (e) {
-	   document.getElementById$("img_pop").removeClass('on');
+	$("img_pop").removeClass('on');
 	});
     </script>
     
