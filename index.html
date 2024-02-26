@@ -41,6 +41,15 @@
     	   document.body.removeChild(textarea);
     	   alert("링크가 복사되었습니다. 필요하신 곳에 붙여넣기 하세요!")
     	};
+	    $(document).on('click', '.add_btn', function (e) {
+		  $('#img_pop').addClass('on');
+
+		});
+	
+	//img_pop 닫기
+	$(document).on('click', '#close_btn', function (e) {
+	  $('#img_pop').removeClass('on');
+	});
     </script>
     
     <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.2.0/kakao.min.js"
@@ -266,6 +275,10 @@
                     </div>
                 </div>
             </div>
+		<div class="img_pop" id="img_pop">
+        		<button type="button" class="close_btn" id="close_btn"><i class='bx bx-x'></i>창닫기</button>
+       		 <p style="font-size:50px;">준비중입니다.</p>       
+   		 </div>
         </section>
         
         <section class="page-section" id="share">
