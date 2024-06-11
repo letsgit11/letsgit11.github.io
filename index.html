@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <meta name="color-scheme" content="light only"/>
+    <meta name="supported-color-schemes" content="light"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="청첩장 제목">
     <meta property="og:description" content="결혼 인사말">
 
@@ -82,16 +85,16 @@
     <div class="container px-4 px-lg-5 h-100">
         <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end">
-                <h1 class="mb-7 font-weight-bold">우리 결혼 합니다</h1>
+                <h1 class="mb-3 font-weight-bold">우리 결혼 합니다</h1>
             </div>
             <div class="col-lg-8 align-self-baseline">
-                <img class="img_main mb-7" src="assets/img/main.jpg" alt="..." />
-                <p class="mb-5">
+                <img class="img_main mb-3" src="assets/img/main.jpg" alt="..." />
+                <p class="mb-10">
                     <span id="name">고태훈</span>
-                    <span class="text-muted" id="and">그리고</span>
+                    <span class="text-muted" id="and">&</span>
                     <span id="name">김하영</span>
                 </p>
-                <p>2024. 10. 12. 토요일 오전 11:00</p>
+                <p>2024. 10. 12. 토요일 오후 12:00</p>
                 <p class="mb-5">제주 썬호텔</p>
                 <a class="btn btn-primary btn-xl" href="#place">장소 바로보기</a>
             </div>
@@ -148,11 +151,11 @@
         <div class="box2 mt-6 text-center">
             <h3 class="text-muted h3 mb-2">신부측 혼주</h3>
             <p>
-                <span class="h3 text-muted mb-0">어머니</span>
-                <span class="parentName text-muted mb-0">박민숙</span>
+                <span class="h3 text-muted mb-0">아버지</span>
+                <span class="parentName text-muted mb-0">(故) 김태완</span>
             </p>
-            <a href="tel:01035599398"><i id="iconMarPar" class="bi bi-telephone fs-2-par mb-3 text-muted"></i></a>
-            <a href="sms:01035599398"><i class="bi bi-chat-dots fs-2-par mb-3 text-muted"></i></a>
+<!--            <a href="tel:01035599398"><i id="iconMarPar" class="bi bi-telephone fs-2-par mb-3 text-muted"></i></a>-->
+<!--            <a href="sms:01035599398"><i class="bi bi-chat-dots fs-2-par mb-3 text-muted"></i></a>-->
         </div>
 
         <div class="box3 mt-5 text-center">
@@ -164,6 +167,18 @@
             <a href="tel:01032315261"><i id="iconMarPar" class="bi bi-telephone fs-2-par mb-5 text-muted"></i></a>
             <a href="sms:01032315261"><i class="bi bi-chat-dots fs-2-par mb-5 text-muted"></i></a>
         </div>
+
+        <div class="box4 mt-5 text-center">
+            <h3 class="text-muted h3 mb-2">신부측 혼주</h3>
+            <p>
+                <span class="h3 text-muted mb-0">어머니</span>
+                <span class="parentName text-muted mb-0">박민숙</span>
+            </p>
+            <a href="tel:01032315261"><i id="iconMarPar" class="bi bi-telephone fs-2-par mb-5 text-muted"></i></a>
+            <a href="sms:01032315261"><i class="bi bi-chat-dots fs-2-par mb-5 text-muted"></i></a>
+        </div>
+
+
         <!-- <div class="box3 mt-5 text-center">
             <h3 class="text-muted h3 mb-1"></h3>
           <p>
@@ -241,13 +256,16 @@
         <hr class="divider divider-light" />
 
         <div id="map" class="mb-3"></div>
-        <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://kko.to/_m3grnSdBj">카카오맵 보기</a>
-        <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://naver.me/Go57I9QC">네이버맵 보기</a>
-        <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84+%EC%A0%9C%EC%A3%BC%EC%8B%9C+%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84+%EC%97%B0%EB%8F%99+%EC%82%BC%EB%AC%B4%EB%A1%9C+67+%EC%A0%9C%EC%A3%BC%EC%8D%AC%ED%98%B8%ED%85%94/@33.4899984,126.4938714,17z/data=!4m9!1m2!2m1!1z7KCc7KO8IOyNrO2YuO2FlA!3m5!1s0x350cfb0e25ab8ab7:0xe205d6003bb72c38!8m2!3d33.4899984!4d126.4938714!16s%2Fg%2F1tpppqp0?source=lnms">구글맵 보기</a>
-        <a class="btn btn-light btn-xl mb-2" href="#services">도저히 모르겠다.</a>
+        <div class="btn-container">
+            <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://kko.to/_m3grnSdBj">카카오맵 보기</a>
+            <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://naver.me/Go57I9QC">네이버맵 보기</a>
+            <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84+%EC%A0%9C%EC%A3%BC%EC%8B%9C+%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84+%EC%97%B0%EB%8F%99+%EC%82%BC%EB%AC%B4%EB%A1%9C+67+%EC%A0%9C%EC%A3%BC%EC%8D%AC%ED%98%B8%ED%85%94/@33.4899984,126.4938714,17z/data=!4m9!1m2!2m1!1z7KCc7KO8IOyNrO2YuO2FlA!3m5!1s0x350cfb0e25ab8ab7:0xe205d6003bb72c38!8m2!3d33.4899984!4d126.4938714!16s%2Fg%2F1tpppqp0?source=lnms">구글맵 보기</a>
+            <a target="_blank" class="btn btn-light btn-xl mb-2" href="https://tmap.life/cfac5b42">티맵 보기</a>
+            <a class="btn btn-light btn-xl mb-2" href="#services">도저히 모르겠다.</a>
+        </div>
 
         <p class="mt-3">
-            <span class="size1_2">제주썬호텔 3층 더 볼룸</span>
+            <span class="size1_2">제주썬호텔 3층 대연회장</span>
             </br></br>
             <span class="size0_9">제주 제주시 삼무로 67 제주 썬호텔</span>
             <button id="copyButton" class="btn btn-light btn-xl" onclick="clip('제주 제주시 삼무로 67 제주 썬호텔')"><i class="bi bi-clipboard"></i>
@@ -272,6 +290,7 @@
             <div class="col-lg-8 col-xl-6 text-center">
                 <h2 class="mt-4">축의금 전달</h2>
                 <hr class="divider divider-light" />
+                <span class="info">참석이 어려워 직접 축하를 전하지 못하는 분들을 위해 계좌번호를 기재하였습니다. 넓은 마음으로 양해 부탁드립니다. 전해주시는 지심은 소중하게 간직하여 좋은 부부의 모습으로 보답하겠습니다.</span>
                 <details>
                     <summary class="text-muted mb-5 size1_2">신랑측 계좌번호 </summary>
                     <div class="tpt">신랑 고태훈 농협은행 302-98994999-11 &emsp;
@@ -328,6 +347,19 @@
     </div>
 </section>
 
+<section class="page-section bg-primary" id="info">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6 text-center">
+                <h2 class="mt-4">안내사항</h2>
+                <hr class="divider divider-light" />
+                <span class="info">어른들 3층, 친구들 1층</span>
+                <span class="info">ATM 하나은행</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer-->
 <footer class="bg-light py-5">
     <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2024 - 하태Company</div></div>
@@ -376,33 +408,29 @@
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0297f0c4ff580bd9c312f83fdc64a6d3"></script>
 <script>
 
-    var lat = 33.4899984; //장소 위도, 경도
-    var lng = 126.4938714;
+    var lat = 33.4897984; // 장소 위도
+    var lng = 126.4938714; // 장소 경도
 
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div
         mapOption = {
-            center : new kakao.maps.LatLng(lat, lng), // 지도의 중심좌표
-            level : 5 // 지도의 확대 레벨
+            center: new kakao.maps.LatLng(lat, lng), // 지도의 중심좌표
+            level: 5 // 지도의 확대 레벨
         };
 
     var map = new kakao.maps.Map(mapContainer, mapOption);
 
-    //var imageSrc = 'assets/img/wedding.jpg', // 마커이미지의 주소입니다
+    // 마커 이미지 설정
     var imageSrc = 'https://letsgit11.github.io/assets/img/marker2.png', // 마커이미지의 주소입니다
-        imageSize = new kakao.maps.Size(48, 50), // 마커이미지의 크기입니다
-        imageOption = {
-            offset : new kakao.maps.Point(50, 79)
-        }; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+        imageSize = new kakao.maps.Size(70, 80), // 마커이미지의 크기입니다
+        imageOption = { offset: new kakao.maps.Point(35, 80) }; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
-    // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize,
-        imageOption), markerPosition = new kakao.maps.LatLng(lat-0.002, lng+0.001); // 마커가 표시될 위치입니다
+    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption);
 
     // 마커를 생성합니다
+    var markerPosition = new kakao.maps.LatLng(lat, lng);
     var marker = new kakao.maps.Marker({
-        position : markerPosition,
-        image : markerImage
-        // 마커이미지 설정
+        position: markerPosition,
+        image: markerImage
     });
 
     // 마커가 지도 위에 표시되도록 설정합니다
@@ -411,17 +439,29 @@
     // 커스텀 오버레이에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
     var content = '<div class="customoverlay">'
         + '  <a href="https://map.kakao.com/?itemId=27129103" target="_blank">'
-        + '    <span class="title">제주 썬호텔</span>' + '  </a>' + '</div>';
-
-    // 커스텀 오버레이가 표시될 위치입니다
-    var position = new kakao.maps.LatLng(lat, lng);
+        + '    <span class="title">제주 썬호텔</span>'
+        + '  </a>'
+        + '</div>';
 
     // 커스텀 오버레이를 생성합니다
     var customOverlay = new kakao.maps.CustomOverlay({
-        map : map,
-        position : position,
-        content : content,
-        yAnchor : 1
+        position: new kakao.maps.LatLng(lat, lng),
+        content: content,
+        yAnchor: 1
+    });
+
+    // 커스텀 오버레이를 지도에 추가합니다
+    customOverlay.setMap(map);
+
+    // 지도가 이동하거나 확대될 때 마커와 커스텀 오버레이를 원래 위치에 고정
+    kakao.maps.event.addListener(map, 'dragend', function() {
+        marker.setPosition(markerPosition);
+        customOverlay.setPosition(markerPosition);
+    });
+
+    kakao.maps.event.addListener(map, 'zoom_changed', function() {
+        marker.setPosition(markerPosition);
+        customOverlay.setPosition(markerPosition);
     });
 </script>
 
